@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B05F39C02D87B6D500FA4F27 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B05F39BE2D87B6D500FA4F27 /* Model.xcdatamodeld */; };
 		B0BBF57B2D7BD49B00EECE19 /* icons8-minus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBF57A2D7BD49B00EECE19 /* icons8-minus-50.png */; };
 		B0DFFAA92D7BB858002402BD /* icons8-plus-button-64.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DFFAA62D7BB858002402BD /* icons8-plus-button-64.png */; };
 		B0DFFAAA2D7BB858002402BD /* icons8-plus-button-128.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DFFAA72D7BB858002402BD /* icons8-plus-button-128.png */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B05F39BF2D87B6D500FA4F27 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		B0BBF57A2D7BD49B00EECE19 /* icons8-minus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-minus-50.png"; sourceTree = "<group>"; };
 		B0DFFA6A2D7BA906002402BD /* Assignment_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DFFA802D7BA90C002402BD /* Assignment_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 		B0DFFA612D7BA906002402BD = {
 			isa = PBXGroup;
 			children = (
+				B05F39BE2D87B6D500FA4F27 /* Model.xcdatamodeld */,
 				B0DFFAA82D7BB858002402BD /* icons8-plus-button-pastel-glyph */,
 				B0DFFA6C2D7BA906002402BD /* Assignment_1 */,
 				B0DFFA832D7BA90C002402BD /* Assignment_1Tests */,
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05F39C02D87B6D500FA4F27 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +594,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B05F39BE2D87B6D500FA4F27 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B05F39BF2D87B6D500FA4F27 /* Model.xcdatamodel */,
+			);
+			currentVersion = B05F39BF2D87B6D500FA4F27 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B0DFFA622D7BA906002402BD /* Project object */;
 }
